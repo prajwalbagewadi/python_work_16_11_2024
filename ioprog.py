@@ -13,4 +13,12 @@ print(f"hello {name}")
 
 
 
-print(f"hello{0}your bal is{1:9.3f}".format("admin",234.005))
+
+name="tom"
+bal=25000.00
+print("hello {0} your bal is {1}".format(name,bal))
+
+
+print("i will not talk in class \n"*100)
+
+print("twenty four thousand nine hundred * five=",24900*5)
