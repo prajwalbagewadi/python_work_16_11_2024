@@ -7,6 +7,9 @@ w -> write into file
 r -> read from file
 a ->
 """
+file=open("file.txt","x")
+file.close()
+
 
 file=open("file.txt","w")
 file.write("helloworld")
